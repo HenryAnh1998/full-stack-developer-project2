@@ -15,12 +15,17 @@ class TriviaTestCase(unittest.TestCase):
         self.app = create_app()
         self.client = self.app.test_client
         self.database_name = "trivia_test"
-        # self.database_path = "postgres://{}/{}".format('localhost:5432', self.database_name)
+        self.username = "postgres"
+        self.password = "root"
+        self.database_uri = "localhost:5432"
         self.database_path = "postgresql://{}:{}@{}/{}".format(
-            "postgres", "root", "localhost:5432", self.database_name)
+            self.username, self.password, self.database_uri, self.database_name)
         setup_db(self.app, self.database_path)
 
-        self.new_question = {"question":"what is my name", "answer":"Stephen Nwankwo", "category":"5", "difficulty":"2"}
+        self.new_question = {"question": "what is my name",
+                             "answer": "Stephen Nwankwo",
+                             "category": "5",
+                             "difficulty": "2"}
 
         # binds the app to the current context
         with self.app.app_context():
@@ -28,7 +33,7 @@ class TriviaTestCase(unittest.TestCase):
             self.db.init_app(self.app)
             # create all tables
             self.db.create_all()
-    
+
     def tearDown(self):
         """Executed after reach test"""
         pass
@@ -38,9 +43,9 @@ class TriviaTestCase(unittest.TestCase):
     Write at least one test for each test for successful operation and for expected errors.
     """
 
-# ------------------------------------------------------------------------------
-#  TEST FOR ALL QUESTION RELATED QUERIES 
-# ------------------------------------------------------------------------------
+    # ------------------------------------------------------------------------------
+    #  TEST FOR ALL QUESTION RELATED QUERIES
+    # ------------------------------------------------------------------------------
 
     def test_get_questions_by_page(self):
         res = self.client().get('/questions')
@@ -100,7 +105,6 @@ class TriviaTestCase(unittest.TestCase):
         self.assertEqual(data['success'], False)
         self.assertEqual(data['message'], 'request cannot be processed')
 
-
     def test_get_question_search_with_results(self):
         res = self.client().post('/questions/search', json={"search": "What"})
         data = json.loads(res.data)
@@ -120,11 +124,9 @@ class TriviaTestCase(unittest.TestCase):
         # self.assertEqual(data['questions'], 0)
         # self.assertEqual(data['total_questions'], 0)
 
-
-
-# ------------------------------------------------------------------------------
-#  TEST FOR ALL CATEGORY SPECIFIC QUERIES 
-# ------------------------------------------------------------------------------
+    # ------------------------------------------------------------------------------
+    #  TEST FOR ALL CATEGORY SPECIFIC QUERIES
+    # ------------------------------------------------------------------------------
 
     def test_get_categories(self):
         res = self.client().get('/categories')

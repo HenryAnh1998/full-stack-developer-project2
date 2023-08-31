@@ -97,8 +97,3 @@ create database trivia_test
 python test_flaskr.py
 ```
 
-### API DOCUMENTATION
-
-Please check [here](https://stenwire.github.io/Trivia-API/) for the API documentation and test queries
-
-🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤
