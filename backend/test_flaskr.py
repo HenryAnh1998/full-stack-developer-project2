@@ -14,7 +14,9 @@ class TriviaTestCase(unittest.TestCase):
         """Define test variables and initialize app."""
         self.app = create_app()
         self.client = self.app.test_client
+        """database_name=trivia_test"""
         self.database_name = os.environ['database_name']
+        """database_uri = postgresql://postgres:root@localhost:5433"""
         self.database_uri = os.environ['database_uri']
         self.database_path = "{}/{}".format(self.database_uri, self.database_name)
         setup_db(self.app, self.database_path)
