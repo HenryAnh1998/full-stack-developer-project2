@@ -1,30 +1,35 @@
-import os
-from sqlalchemy import Column, String, Integer, create_engine
+from sqlalchemy import Column, String, Integer
 from flask_sqlalchemy import SQLAlchemy
-import json
 
-database_name = 'trivia'
-database_path = "postgresql://{}:{}@{}/{}".format(
-    "postgres", "root", "localhost:5432", database_name
-)
+database_name = "trivia"
+database_path_default = "postgresql://postgres:root@{}/{}".format('localhost:5433', database_name)
 
 db = SQLAlchemy()
 
-"""
+'''
 setup_db(app)
     binds a flask application and a SQLAlchemy service
-"""
-def setup_db(app, database_path=database_path):
+'''
+
+
+def setup_db(app, database_path=database_path_default):
     app.config["SQLALCHEMY_DATABASE_URI"] = database_path
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     db.app = app
     db.init_app(app)
     db.create_all()
 
-"""
+
+'''
 Question
 
-"""
+'''
+
+
+def update():
+    db.session.commit()
+
+
 class Question(db.Model):
     __tablename__ = 'questions'
 
@@ -44,9 +49,6 @@ class Question(db.Model):
         db.session.add(self)
         db.session.commit()
 
-    def update(self):
-        db.session.commit()
-
     def delete(self):
         db.session.delete(self)
         db.session.commit()
@@ -58,12 +60,18 @@ class Question(db.Model):
             'answer': self.answer,
             'category': self.category,
             'difficulty': self.difficulty
-            }
+        }
 
-"""
+    def __repr__(self):
+        return f"<Question {self.id}-{self.question}>"
+
+
+'''
 Category
 
-"""
+'''
+
+
 class Category(db.Model):
     __tablename__ = 'categories'
 
@@ -77,4 +85,7 @@ class Category(db.Model):
         return {
             'id': self.id,
             'type': self.type
-            }
+        }
+
+    def __repr__(self):
+        return f"<Category {self.id}-{self.type}>"

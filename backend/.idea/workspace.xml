@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6afa0fd3-574e-4177-964b-a2c31051a737" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curl-queries.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flaskr.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flaskr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia.psql" beforeDir="false" afterPath="$PROJECT_DIR$/trivia.psql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/art.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/art.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/entertainment.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/entertainment.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/geography.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/geography.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/history.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/history.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/science.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/science.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/FormView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/FormView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Question.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/QuestionView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/QuestionView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/QuizView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/QuizView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/stylesheets/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/stylesheets/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/stylesheets/FormView.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/stylesheets/FormView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/stylesheets/Question.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/stylesheets/Question.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/stylesheets/QuizView.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/stylesheets/QuizView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/stylesheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/stylesheets/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2V03aNpzska0YLVhiRymBfTOw1S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6afa0fd3-574e-4177-964b-a2c31051a737" name="Changes" comment="" />
+      <created>1693959236423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693959236423</updated>
+      <workItem from="1693959241856" duration="1253000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
